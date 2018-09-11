@@ -13,15 +13,42 @@ body {
 }
 
 header {
-	height: 500px;
+	height: 400px;
 	background-image: url("../images/Capture.JPG");
 	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
 
+#header-wrapper {
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 
-	padding: 25px;
+	padding: 5px 25px 25px 25px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  padding: 5px !important;
+  border-bottom: 1px solid hsla(0, 2%, 5%, 0.1);
+}
+
+.sticky h1 {
+  padding: 15px 0px 15px 15px !important;
+  color: black;
+}
+
+.sticky .main-navigation {
+	margin-right: 15px;
+}
+
+.sticky .main-navigation a {
+	color: black;
 }
 
 h1 {
@@ -137,7 +164,7 @@ footer p a:hover {
 }
 
 #facebook {
-	padding: 0   px;
+	padding: 0px 10px 0px 10px;
 }
 
 #twitter:hover {
